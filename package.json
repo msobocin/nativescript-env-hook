@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:rhrn/nativescript-10hook-release-info.git"
+    "url": "git@github.com/msobocin/nativescript-env-hook.git"
   },
   "scripts": {
     "postinstall": "node postinstall.js",
