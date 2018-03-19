@@ -15,6 +15,16 @@
     "type": "git",
     "url": "git@github.com/msobocin/nativescript-env-hook.git"
   },
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "preuninstall": "node preuninstall.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-android": "cross-env BUILD_PROFILE=local tns run android",
+    "run-dev-android": "cross-env BUILD_PROFILE=dev tns run android",
+    "debug-android": "cross-env BUILD_PROFILE=local tns debug android",
+    "build-android": "cross-env BUILD_PROFILE=local tns build android",
+    "build-dev-android": "cross-env BUILD_PROFILE=dev tns build android"
+  },
   "keywords": [
     "nativescript",
     "hooks",
